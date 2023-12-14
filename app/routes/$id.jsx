@@ -28,7 +28,7 @@ const landingPage = () => {
                                         {websiteData?.companyName}</span>
                                     <span style={{ float: "right" }}><a href="tel:+918451047073">
                                         <i className="fas fa-phone-alt"></i> {websiteData?.phone1}</a>
-                                        <a href={"tel:" + { websiteData?.phone2}}>
+                                        <a href={"tel:" +     { websiteData?.phone2}}>
                                         / {websiteData?.phone2}</a></span>
                             </p>
                         </div>
