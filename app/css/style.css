@@ -1,0 +1,334 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+.gs-header .top-header {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.055);
+}
+
+.gs-header .top-header p {
+  text-decoration: none;
+  padding: 7px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.gs-header .top-header a {
+  text-decoration: none;
+  padding: 3px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.gs-header .nav-item {
+  padding: 10px 10px;
+}
+
+.gs-header .nav-link {
+  color: black !important;
+  font-size: 18px;
+}
+
+.gs-nav-btn {
+  background: #000;
+  text-decoration: none !important;
+  padding: 10px 20px !important;
+  font-weight: bold;
+  color: #fff !important;
+
+}
+
+@media (max-width: 780px) {
+  .gs-header .gs-none {
+    display: none;
+  }
+}
+
+.navbar-brand {
+  max-width: 175px;
+}
+
+.gs-pl-center {
+  place-self: center;
+}
+
+.gs-hero {
+  padding: 100px 10px;
+  /* background: linear-gradient(#ffffff, #7163baaa), url(../img/pest-control-bg-1.png); */
+  /* background: linear-gradient(#f0cccc, #9c92ceaa); */
+  background: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* #d7a0a0, #41357faa */
+}
+
+.gs-hero h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.gs-hero p {
+  font-size: 18px;
+}
+
+.gs-form {
+  padding: 30px;
+}
+
+.gs-btn {
+  background-color: #000;
+  color: white !important;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.gs-btn:hover {
+  text-decoration: none;
+  color: white;
+  background: #000000e9;
+}
+
+@media (max-width: 1200px) {
+  .gs-hero {
+    padding: 70px 10px;
+  }
+
+  .gs-form {
+    margin-top: 40px;
+  }
+
+  .gs-hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+}
+
+.gs-about {
+  padding: 100px 10px;
+  /* background: linear-gradient(#fffffff5, #ffffffde),
+    url(../img/pest-control-bg-1.png); */
+  background: rgba(0, 0, 0, 0.095);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gs-about h3 {
+  color: #000;
+  font-weight: 700;
+}
+
+.gs-about h2 {
+  font-weight: 700;
+}
+
+.gs-about p {
+  font-size: 18px;
+}
+
+.gs-about img {
+  height: 100%;
+  transform: scaleX(-1);
+}
+
+.gs-services {
+  padding: 75px 10px;
+  /* background: linear-gradient(#fffffff5, #fffffff5),
+    url(../img/pest-control-bg-1.png); */
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gs-services img {
+  width: 100%;
+}
+
+.gs-card {
+  margin: 20px 0px;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.gs-card h4 {
+  font-weight: 700;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.gs-services h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.gs-services p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.gs-card p {
+  font-size: 16px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.gs-card .gs-btn {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #000;
+
+}
+
+.gs-cta {
+  padding: 70px 10px;
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .gs-cta {
+    padding: 50px 10px;
+  }
+}
+
+.gs-cta h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.gs-btn-lg {
+  padding: 15px 50px !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+}
+
+footer {
+  padding: 50px 10px 30px 10px;
+  background-color: #000;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6,
+footer p,
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer img {
+  width: 100%;
+  max-width: 200px !important;
+}
+
+footer h4 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul a {
+  /* font-weight: 500; */
+  font-size: 16px;
+  padding: 5px !important;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+}
+
+.copy-text {
+  text-align: center;
+}
+
+.gs-testimonial {
+  padding: 50px 10px;
+  /* background: linear-gradient(#fffffff5, #fffffff5),
+    url(../img/pest-control-bg-1.png); */
+  background: white;
+}
+
+.gs-testimonial h1 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.gs-testimonial p {
+  text-align: center;
+}
+
+.gs-box {
+  padding: 30px 30px;
+}
+
+.gs-profile {
+  width: 75px;
+}
+
+.gs-test-row {
+  float: right;
+}
+
+.gs-testimonial .col-xl-4 {
+  margin-bottom: 30px;
+}
+
+.gs-contact {
+  padding: 75px 10px;
+}
+
+.gs-contact h1 {
+  font-weight: 700;
+}
+
+.gs-contact p {
+  font-size: 18px;
+}
+
+.gs-contact p b {
+  font-size: 20px;
+}
+
+.gs-floating-btn {
+  /* float : right; */
+  position: fixed;
+  top: 40vh;
+  right: 0vw;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gs-floating-btn img {
+  width: 40px;
+}
+
+.fixed-top {
+  background: white;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.gs-pvt-left {
+  padding-left: 60px !important;
+}
